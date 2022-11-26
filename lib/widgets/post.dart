@@ -1,6 +1,7 @@
-import 'package:facebook_clone/models/user_model.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+
+import '/models/user_model.dart';
 
 class Post extends StatefulWidget {
   const Post({Key? key, required this.user}) : super(key: key);

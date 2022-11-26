@@ -1,4 +1,4 @@
-import 'package:facebook_clone/models/user_model.dart';
+import '/models/user_model.dart';
 import 'package:flutter/cupertino.dart';
 
 class Story extends StatelessWidget {

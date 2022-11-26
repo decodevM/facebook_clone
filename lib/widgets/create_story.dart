@@ -1,5 +1,6 @@
-import 'package:facebook_clone/models/user_model.dart';
 import 'package:flutter/cupertino.dart';
+
+import '/models/user_model.dart';
 
 class CreateStory extends StatelessWidget {
   const CreateStory({Key? key, required this.user}) : super(key: key);
@@ -16,27 +17,29 @@ class CreateStory extends StatelessWidget {
           ),
           child: Stack(
             children: [
-              Column(children: [
-                Expanded(
-                  flex: 2,
-                  child: Container(
-                    decoration: BoxDecoration(
-                        image: DecorationImage(
-                            image: AssetImage(
-                                'assets/images/profiles/${user.profileImage}'),
-                            fit: BoxFit.cover)),
-                  ),
-                ),
-                const Expanded(
-                  child: Center(
-                    child: Text(
-                      'Create\nstory',
-                      style: TextStyle(fontWeight: FontWeight.w600),
-                      textAlign: TextAlign.center,
+              Column(
+                children: [
+                  Expanded(
+                    flex: 2,
+                    child: Container(
+                      decoration: BoxDecoration(
+                          image: DecorationImage(
+                              image: AssetImage(
+                                  'assets/images/profiles/${user.profileImage}'),
+                              fit: BoxFit.cover)),
                     ),
                   ),
-                )
-              ]),
+                  const Expanded(
+                    child: Center(
+                      child: Text(
+                        'Create\nstory',
+                        style: TextStyle(fontWeight: FontWeight.w600),
+                        textAlign: TextAlign.center,
+                      ),
+                    ),
+                  )
+                ],
+              ),
               Positioned(
                 top: 125,
                 left: 50,

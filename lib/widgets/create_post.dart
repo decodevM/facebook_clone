@@ -1,5 +1,6 @@
-import 'package:facebook_clone/models/user_model.dart';
 import 'package:flutter/cupertino.dart';
+
+import '/models/user_model.dart';
 
 class CreatePost extends StatelessWidget {
   const CreatePost({Key? key, required this.user}) : super(key: key);
