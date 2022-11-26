@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 
-import 'homeScreen.dart';
+import 'screens/main_screen.dart';
 
 void main() {
   runApp(const MyApp());

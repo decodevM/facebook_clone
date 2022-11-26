@@ -196,7 +196,7 @@ class _PostState extends State<Post> {
             endIndent: 20,
           ),
           Padding(
-            padding: EdgeInsets.symmetric(horizontal: 20),
+            padding: const EdgeInsets.symmetric(horizontal: 20),
             child: Row(
               children: [
                 CupertinoButton(
@@ -210,7 +210,7 @@ class _PostState extends State<Post> {
                             ? CupertinoColors.activeBlue
                             : CupertinoColors.black.withOpacity(.6),
                       ),
-                      SizedBox(
+                      const SizedBox(
                         width: 2,
                       ),
                       Text(
@@ -225,7 +225,7 @@ class _PostState extends State<Post> {
                     ],
                   ),
                 ),
-                Spacer(),
+                const Spacer(),
                 Row(
                   children: [
                     Icon(
@@ -241,7 +241,7 @@ class _PostState extends State<Post> {
                     ),
                   ],
                 ),
-                Spacer(),
+                const Spacer(),
                 Row(
                   children: [
                     Icon(
@@ -260,7 +260,7 @@ class _PostState extends State<Post> {
               ],
             ),
           ),
-          SizedBox(
+          const SizedBox(
             height: 10,
           ),
         ],

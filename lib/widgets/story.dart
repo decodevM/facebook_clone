@@ -7,7 +7,7 @@ class Story extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: EdgeInsets.symmetric(horizontal: 5),
+      padding: const EdgeInsets.symmetric(horizontal: 5),
       child: ClipRRect(
         borderRadius: BorderRadius.circular(20),
         child: AspectRatio(

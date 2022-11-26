@@ -30,7 +30,7 @@ class CreatePost extends StatelessWidget {
             width: 10,
           ),
           const Text(
-            'What\s on your mind?',
+            'What\'s on your mind?',
             style: TextStyle(
                 fontSize: 18,
                 fontWeight: FontWeight.w500,
